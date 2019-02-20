@@ -20,7 +20,7 @@
           </li>
           <li class="nav-item">
             <router-link to="/game" class="rLink"> 
-              <a class="nav-link" href="#">Overthrone</a> 
+              <a class="nav-link" href="#">Games</a> 
             </router-link>
           </li>
         </ul>
@@ -174,6 +174,8 @@ export default {
 <style>
 
 
+
+
 .list-social-icons a {
   color: #495057;
 }
@@ -222,7 +224,7 @@ section.resume-section .resume-item .resume-date {
   }
 }
 .bg-primary {
-  background-color: #9BD3FA !important;
+  background-color: rgb(11, 12, 14) !important;
 }
 
 .text-primary {

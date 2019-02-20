@@ -1,25 +1,28 @@
 <template>
   <div class="container">
+    
         <div class="my-auto">
-          <div class="resume-item d-flex flex-column flex-md-row mb-5" v-for="game in games" :key="game.id">
+          <div class="resume-item d-flex flex-column flex-md-row mb-2" v-for="game in games" :key="game.id">
             <div class="resume-content mr-auto">
-                <h2 class="mb-3">{{ game.title }}</h2> 
-                <div class=" embed-responsive embed-responsive-16by9 mb-3">
-                  <iframe  width="560" height="315" :src= "game.video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="mb-4" >
-                  <p v-for="l in game.description" :key="l.id"> {{ l.line }}</p>
-                </div>  
+                <h2 class="mb-3">Games</h2>    
               </div>
           </div>
         </div>
+    
+
+      <Overthrone/>
   </div>
 
 
 </template>
 
+
 <script>
+import Overthrone from './Overthrone.vue'
 export default {
+  components: {
+    Overthrone
+  },
   data()
   {
     return{
@@ -27,13 +30,16 @@ export default {
       games: [
             {
               title: 'Overthrone',
+              subtitle: 'Team Capstone Project at UC Irvine',
               pitch: "A 2-4 player twin-stick battle royale with a ton of weapons and power-ups.",
               description: [
-                {line: '"Overthrown" is my Capstone Project at UC Irvine. It is currently in development and I\'ve been working on it with 5 others since September 2018.'},
-                {line: 'Players fight to be the last man standing for multiple rounds, gaining experience and levels as they fight. The player that reaches level 10 wins and is the new king. Dead players will turn into ghosts and will be able to throw in bombs to cause mayhem by breaking bits of the map.'},             
-                {line: 'The art aims to create a medieval fantasy world, built out of simple shapes and low-poly models. Bright colors that visually pop out at the player will be used to draw attention to the important elements of the game. Inspiration is drawn from Lovely Planet’s art direction and Monument Valley’s orthographic view.'},
+                {line:  'Overthrone is made in Unity. My role for this game was Gameplay Programmer, and I primarily worked on player movement, weapons, and audio. The role of Designer was shared between all team members. I helped conduct playtesting sessions, gather feedback, and balance the game '},
+                {line: 'Players fight to be the last one standing for multiple rounds, gaining experience and levels as they fight. The player that reaches level 10 wins and is the new king. Dead players turn into ghosts and can throw bombs into the map to cause mayhem by breaking bits of the map.'},             
+                {line: 'Mechanics: Twin-stick movement, aiming, and shooting are the basic mechanics. Additionally, there is dashing, dynamic map destruction, and a level system.'},
+                {line: 'Dynamics: Shooting, dodging, picking up power-ups/weapons.'},
+                {line: 'Aesthetics: Competition, Cartoonish , Chaotic.'},
                 {line: 'Overthrone is trying to capture the mix of Accessibility and Competition that is present in local multiplayer games like Mario Kart and Super Smash Brothers. Gameplay should be simple enough for a newcomer to have a good time, but complex enough to reward skilled players.'},
-                {line: 'A lot more shall be written'},
+                {line: 'Check in a while for some updates!'},
               ],
               video : 'https://www.youtube.com/embed/CLjk1oTeB-4',
             },
@@ -59,6 +65,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/*
 h3 {
   margin: 40px 0 0;
 }
@@ -73,4 +80,5 @@ li {
 a {
   color: #42b983;
 }
+*/
 </style>

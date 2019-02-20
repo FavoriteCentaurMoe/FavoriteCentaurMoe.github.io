@@ -4,11 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+*
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 0px;
-  color: #868e96; /* This affects the text */
-  background-color: #eaf8f7;
+  color: #656d75; 
+  background-color: #e7f1f1;
 }
 
 
@@ -115,7 +116,7 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
-
+/*
 .bg-primary {
   background-color: #BD5D38 !important;
 }
@@ -123,7 +124,10 @@ section.resume-section .resume-item .resume-date {
 .text-primary {
   color: rgb(62, 180, 212) !important;
 }
+*/
 /*#BD5D38; */
+
+/*
 a {
   color: rgb(62, 180, 212);
 }
@@ -131,3 +135,4 @@ a {
 a:hover, a:focus, a:active {
   color: rgb(18, 77, 145)''
 }
+*/

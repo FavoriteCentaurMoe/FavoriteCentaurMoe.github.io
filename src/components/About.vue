@@ -12,7 +12,7 @@
           <p class="mb-2">{{ aboutMe }}</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/nikhil-sharma-a79a1796">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -20,7 +20,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/FavoriteCentaurMoe">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -45,7 +45,7 @@
         <div class="col-md-5">
           <h3>Overthrone <br/> <small>Capstone Project</small></h3>      
           <p>A 2-4 player twin-stick battle royale with a ton of weapons and power-ups</p>
-          <router-link to="/game">
+          <router-link to="/overthrone">
             <a class="btn btn-primary" href="#">View Project</a>
           </router-link>
         </div>

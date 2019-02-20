@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Game from './components/Game.vue'
+import Overthrone from './components/Overthrone.vue'
 //import Skills from './components/Skills.vue'
 import About from './components/About.vue'
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/game',
       name: 'game',
       component: Game
-    }
+    },
+    {
+      path: '/overthrone',
+      name: 'overthrone',
+      component: Overthrone
+    },
   ]
 })
