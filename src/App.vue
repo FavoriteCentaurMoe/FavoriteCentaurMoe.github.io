@@ -167,7 +167,7 @@ export default {
    head: {
     title: { inner: 'Nikhil Sharma' },
     meta: [ { name: 'nikhil', content: 'Nikhil Sharma\'s portfolio website'  }, ],
-    link: [ { rel: 'icon', href: require('../static/player1.png'), type: 'image/png' }, 
+    link: [ { rel: 'icon', href: '../static/player1.png'}, 
     ],
    },
   mounted () {

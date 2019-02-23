@@ -2,7 +2,7 @@
   <div class="container">
         <div class="my-auto">
           <div class="resume-item d-flex flex-column flex-md-row mb-2">
-            <div class="resume-content mr-auto">
+            <div class="resume-content mr-auto small-center">
                 <h3 class="mb-0">The Taste of Home </h3> 
                 <h3><small class="mb-3">Global Game Jam 2019 Project</small></h3>
                 <div class=" embed-responsive embed-responsive-16by9 mb-3 col-md-8">

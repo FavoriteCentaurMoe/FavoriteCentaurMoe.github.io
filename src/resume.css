@@ -117,6 +117,14 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.btn 
+{
+  background-color: rgb(40, 112, 163) 
+}
+.btn-primary
+{
+  background-color: rgb(40, 112, 163);
+}
 
 @media(max-width: 500px)
 {

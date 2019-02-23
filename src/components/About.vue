@@ -2,7 +2,7 @@
 <template>
 
   <div class="container">
-    <div class="my-auto mb-3">
+    <div class="my-auto mb-3 small-center">
           <h1 class="mb-2">{{ name }}
             <span class="text-primary">{{ surname }}</span>
           </h1>
@@ -31,7 +31,7 @@
         </div>
   
       <section class=" pt-3 pt-lg-5" id="experience">
-        <div class="my-auto">
+        <div class="my-auto small-center">
             <h2 class="mb-2">Projects</h2>
             
 

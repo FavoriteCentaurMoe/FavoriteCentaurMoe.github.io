@@ -1,17 +1,15 @@
 <template>
   <div class="container">
     
-        <div class="my-auto">
-          <div class="resume-item d-flex flex-column flex-md-row mb-2" v-for="game in games" :key="game.id">
-            <div class="resume-content mr-auto">
-                <h2 class="mb-3">Games</h2>    
-              </div>
-          </div>
+        <div class="my-auto small-center">
+          <h2 class="mb-3">Games</h2>  
         </div>
     
 
       <Overthrone/>
+      <hr>
       <GGJ19/>
+      <hr>
       <Shape_Escape />
    
   </div>
