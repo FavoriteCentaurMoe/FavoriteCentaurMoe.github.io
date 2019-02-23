@@ -7,7 +7,7 @@
             <span class="text-primary">{{ surname }}</span>
           </h1>
           <div class="subheading mb-2">{{ address }}
-            <a href="mailto:nik41507@gmail.com">{{ email }}</a>
+            <a href="mailto:nik41507@gmail.com" style="color:rgb(59, 95, 121)">{{ email }}</a>
           </div>
           <p class="mb-2">{{ aboutMe }}</p>
           <ul class="list-inline list-social-icons mb-0">
@@ -35,22 +35,40 @@
             <h2 class="mb-2">Projects</h2>
             
 
-      <!-- Project One -->
+      <!-- Overthrone -->
       <div class="row">
         <div class="col-md-6">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="./OverthroneGIF.gif" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../assets/pOverthrone.png" alt="">
           </a>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 small-center">
           <h3>Overthrone <br/> <small>Capstone Project</small></h3>      
           <p>A 2-4 player twin-stick battle royale with a ton of weapons and power-ups</p>
-          <router-link to="/overthrone">
+          <router-link to="/Overthrone">
             <a class="btn btn-primary" href="#">View Project</a>
           </router-link>
         </div>
       </div>
       <!-- /.row -->
+
+      <hr>
+      
+      <!-- GGJ19 -->
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../assets/pGGJ19.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5 small-center " >
+          <h3>The Taste of Home <br/> <small>Global Game Jam 2019</small></h3>      
+          <p>A shoot'em up about cooking that was supposed to have a story</p>
+          <router-link to="/GGJ19" >
+            <a class="btn btn-primary " href="#">View Project</a>
+          </router-link>
+        </div>
+      </div>
 
       <hr>
 

@@ -11,6 +11,7 @@
     
 
       <Overthrone/>
+      <GGJ19/>
   </div>
 
 
@@ -19,9 +20,11 @@
 
 <script>
 import Overthrone from './Overthrone.vue'
+import GGJ19 from './GGJ19.vue'
 export default {
   components: {
-    Overthrone
+    Overthrone,
+    GGJ19
   },
   data()
   {

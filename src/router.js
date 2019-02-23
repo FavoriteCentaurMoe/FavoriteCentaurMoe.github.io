@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Game from './components/Game.vue'
 import Overthrone from './components/Overthrone.vue'
+import GGJ19 from './components/GGJ19.vue'
 //import Skills from './components/Skills.vue'
 import About from './components/About.vue'
 
@@ -11,18 +12,23 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'skills',
+      name: 'About',
       component: About
     },
     {
-      path: '/game',
-      name: 'game',
+      path: '/Games',
+      name: 'Games',
       component: Game
     },
     {
-      path: '/overthrone',
-      name: 'overthrone',
+      path: '/Overthrone',
+      name: 'Overthrone',
       component: Overthrone
     },
+    {
+      path: '/GGJ19',
+      name: 'GGJ19',
+      component: GGJ19
+    }
   ]
 })
