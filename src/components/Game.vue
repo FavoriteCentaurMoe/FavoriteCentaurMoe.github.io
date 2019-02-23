@@ -12,6 +12,8 @@
 
       <Overthrone/>
       <GGJ19/>
+      <Shape_Escape />
+   
   </div>
 
 
@@ -21,10 +23,12 @@
 <script>
 import Overthrone from './Overthrone.vue'
 import GGJ19 from './GGJ19.vue'
+import Shape_Escape from './Shape_Escape.vue'
 export default {
   components: {
     Overthrone,
-    GGJ19
+    GGJ19,
+    Shape_Escape,
   },
   data()
   {

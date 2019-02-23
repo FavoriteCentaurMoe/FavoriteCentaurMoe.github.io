@@ -72,6 +72,24 @@
 
       <hr>
 
+      <!-- Shape Escape -->
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../assets/pShape_Escape.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5 small-center " >
+          <h3>Shape Escape <br/> <small></small></h3>      
+          <p>A simple platformer</p>
+          <router-link to="/GGJ19" >
+            <a class="btn btn-primary " href="#">View Project</a>
+          </router-link>
+        </div>
+      </div>
+
+      <hr>
+
       <!-- Project Two 
       <div class="row">
         <div class="col-md-6">

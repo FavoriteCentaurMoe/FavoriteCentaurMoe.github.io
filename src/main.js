@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Game from './components/Game.vue'
+//import Game from './components/Game.vue'
 import BootstrapVue from 'bootstrap-vue'
 import jquery from 'jquery'
 import router from './router'

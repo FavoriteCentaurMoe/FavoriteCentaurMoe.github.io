@@ -1,8 +1,8 @@
+
 <template>
 
 
 <div>
-  
   
     <div class="container-fluid">
 
@@ -118,10 +118,8 @@
 
 <script>
 
-import Game from './components/Game.vue'
 export default {
   components: {
-    Game
   },
   data () {
     return {
@@ -166,6 +164,12 @@ export default {
       ],
     }
   },
+   head: {
+    title: { inner: 'Nikhil Sharma' },
+    meta: [ { name: 'nikhil', content: 'Nikhil Sharma\'s portfolio website'  }, ],
+    link: [ { rel: 'icon', href: require('../static/player1.png'), type: 'image/png' }, 
+    ],
+   },
   mounted () {
     const $ = this.jquery
     this.$nextTick(() => {
