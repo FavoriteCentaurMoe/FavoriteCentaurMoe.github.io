@@ -81,7 +81,7 @@
         </div>
         <div class="col-md-5 small-center " >
           <h3>Shape Escape <br/> <small></small></h3>      
-          <p>A simple platformer</p>
+          <p>A simple platformer.</p>
           <router-link to="/Shape_Escape" >
             <a class="btn btn-primary " href="#">View Project</a>
           </router-link>
