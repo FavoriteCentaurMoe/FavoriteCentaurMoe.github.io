@@ -10,9 +10,9 @@
                 </div>
                 <div class="mb-4 col-md-8" >
                   <p> The theme of this Game Jam was <i>"What does home mean to you?"</i>.<p>
-                  <p> My team and I wanted to make a game about cooking food for a family. The idea was to have two sections, a vertical 2D shoot'em up, and a 3D story section. The shoot'em up would be cooking in the kitchen. The 3D section would take place in the living room where the player would talk to some NPCs.</p>
-                  <p><b>Spoilers</b>: There wasn't enough time to make a story. We managed to finish the shoot'em up and I was happy with that.  
-                  <p><b>My role</b>: I worked on the kitchen shoot'em up, audio, and coordinating the team.</p>
+                  <p> My team and I wanted to make a game about cooking food for a family. The idea was to have cooking themed mini-games with a story section that was affected by the player's performance in the minigaems. I worked on a shoot'em up minigame that would be "shooting" ingredients to chop them for cooking. The story section was suppsed to take</p>
+                  <p> Unfortunaely there wasn't enough time to make a story and multiple min-games. We managed to finish the shoot'em up and I was happy with that.  
+                  <p><b>My role</b>: I worked on the kitchen shoot'em up, and coordinating the team.</p>
                   <p><a href="https://globalgamejam.org/2019/games/taste-home-1"> Link to the Global Game Jam page </a> </p>
                 </div>    
               </div>

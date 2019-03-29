@@ -39,12 +39,12 @@
       <div class="row">
         <div class="col-md-6">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="../assets/pOverthrone.png" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="../assets/Overthrone.png" alt="">
           </a>
         </div>
         <div class="col-md-5 small-center">
           <h3>Overthrone <br/> <small>Capstone Project</small></h3>      
-          <p>A 2-4 player twin-stick battle royale with a ton of weapons and power-ups</p>
+          <p>A local multiplayer twin-stick shooter where players battle in an arena littered with weapons and powerups to.</p>
           <router-link to="/Overthrone">
             <a class="btn btn-primary" href="#">View Project</a>
           </router-link>
@@ -63,7 +63,7 @@
         </div>
         <div class="col-md-5 small-center " >
           <h3>The Taste of Home <br/> <small>Global Game Jam 2019</small></h3>      
-          <p>A shoot'em up about cooking that was supposed to have a story</p>
+          <p>A cooking themed shoot'em.</p>
           <router-link to="/GGJ19" >
             <a class="btn btn-primary " href="#">View Project</a>
           </router-link>
@@ -82,7 +82,7 @@
         <div class="col-md-5 small-center " >
           <h3>Shape Escape <br/> <small></small></h3>      
           <p>A simple platformer</p>
-          <router-link to="/GGJ19" >
+          <router-link to="/Shape_Escape" >
             <a class="btn btn-primary " href="#">View Project</a>
           </router-link>
         </div>
@@ -150,7 +150,7 @@ export default {
     return {
       name: 'Nikhil',
       surname: 'Sharma',
-      address: '110 Berkeley Avenue · Irvine, CA 92612 · (925) 660-9265 ·',
+      address: 'Irvine, CA · (925) 660-9265 ·',
       email: 'nik41507@gmail.com',
       aboutMe: 'I\'m a Computer Game Science student studying at UC Irvine.',
 

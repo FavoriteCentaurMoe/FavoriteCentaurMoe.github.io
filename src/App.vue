@@ -149,11 +149,11 @@ export default {
         {
           title: 'Overthrone',
           description : 'A 2-4 player twin-stick battle royale with a ton of weapons and power-ups. Players battle each other across multiple rounds, gaining experience as they fight. Maps begin to shrink as the round progresses. ',
-          video : 'https://www.youtube.com/embed/CLjk1oTeB-4',
+          video : 'https://www.youtube.com/embed/YF0tfTCPq6M',
         },
         {
           title: 'The Taste of Home',
-          description : 'A Global Game Jam 2019 Project.',
+          description : 'Global Game Jam 2019 Project. A cooking themed shoot\'em up',
           video : 'https://www.youtube.com/embed/lnyRaznc-tc',
         },
                 {

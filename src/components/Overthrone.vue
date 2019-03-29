@@ -9,13 +9,13 @@
                   <iframe  width="560" height="315" :src= "video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="mb-4 col-md-8" >
-                  <p><b>Description</b>: Players fight to be the last one standing for multiple rounds, gaining experience and levels as they fight. The player that reaches level 10 wins and is the new king. Dead players turn into ghosts and can throw bombs into the map to cause mayhem by breaking bits of the map.</p>
-                  <p><b>My role</b>: Gameplay Programmer/Designer. I primarily worked on player movement, weapons, audio, and a few shaders. The role of Designer was shared between all team members. I helped conduct playtesting sessions, gather feedback, and balance the game </p>
-                  <p><b>Mechanics</b>: Twin-stick movement, aiming, and shooting are the basic mechanics. Additionally, there is dashing, dynamic map destruction, and a level system. </p>
-                  <p><b>Dynamics</b>: Shooting, dodging, picking up power-ups/weapons. </p>
-                  <p><b>Aesthetics</b>: Competition, Cartoonish , Chaotic. </p>
-                  <p><i>Overthrone</i> is trying to capture the mix of Accessibility and Competition that is present in local multiplayer games like Mario Kart and Super Smash Brothers. Gameplay should be simple enough for a newcomer to have a good time, but complex enough to reward skilled players. </p>
-                  <p> <a href="https://favoritecentaurmoe.itch.io/overthrone"> Check it out here! </a> </p>
+                  <p><b>Description</b>: Overthrone is a 2-4 player twin-stick arena fighter. Grab weapons and power-ups that are scattered around the arena to give yourself an edge in this frantic competition for the crown. If you fall in combat, fear not; take revenge as a ghost by destroying the ground underneath your killer and plummeting them to their doom!  In the end, only one can emerge victoriously and claim the crown. Will you triumph? Or will you be… OVERTHRONE?!</p>
+                <p><b>My role</b>: Gameplay Developer/Designer</p>
+                <ul>
+                    <li>I worked on movement and combat. Specifically, I worked a lot on "Ghost Mode". When a player dies they spawn on the sideo f the map as a ghost and can throw bombs into the map to break up bits of it.</li>
+                    <li>Additionally, I created simple shaders (the ghost's aiming line), particle effects (the bow's charge), and some simple 3d models (the ghost's bomb, the arrow)</li>
+                </ul>    
+                <p> <a href="https://stealthbomb.itch.io/overthrone"> Check it out on Itch.io! </a> </p>
                 </div>    
               </div>
           </div>
@@ -30,7 +30,7 @@ export default {
   data()
   {
     return{
-      video : 'https://www.youtube.com/embed/CLjk1oTeB-4',
+      video : 'https://www.youtube.com/embed/YF0tfTCPq6M',
       name: 'Overthrone',
     }
   }
