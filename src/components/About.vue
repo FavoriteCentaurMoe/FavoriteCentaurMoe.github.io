@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-5 small-center">
           <h3>Overthrone <br/> <small>Capstone Project</small></h3>      
-          <p>A local multiplayer battle royale where players battle in an arena littered with weapons and powerups to.</p>
+          <p>A local multiplayer twin-stick shooter where players battle in an arena littered with weapons and powerups to.</p>
           <router-link to="/Overthrone">
             <a class="btn btn-primary" href="#">View Project</a>
           </router-link>
