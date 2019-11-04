@@ -4,7 +4,7 @@ import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue'
 import jquery from 'jquery'
 import router from './router'
-import VueAnalytics from 'vue-analytics'
+//import VueAnalytics from 'vue-analytics'
 require('bootstrap')
 require('jquery.easing')
 require('bootstrap/dist/css/bootstrap.css')
@@ -17,10 +17,11 @@ Vue.use(BootstrapVue)
 Vue.prototype.jquery = jquery
 
 Vue.config.productionTip = false
-
+/*
 Vue.use(VueAnalytics, {
   id: 'UA-134679341-1'
 })
+*/
 
 /* eslint-disable no-new */
 new Vue({

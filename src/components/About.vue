@@ -144,6 +144,15 @@
 </template>
 
 <script>
+/*
+import Header from './components/Header.vue'
+import Intro from './components/Intro.vue'
+import Projects from './components/Project.vue'
+
+import OverthroneImage from './assets/Overthrone.png'
+import GGJ19Image from './assets/pGGJ19.png'
+import ShapeEscapeImage from './assets/pShape_Escape.png'
+*/
 
 export default {
   data () {
@@ -152,7 +161,7 @@ export default {
       surname: 'Sharma',
       address: 'Irvine, CA · (925) 660-9265 ·',
       email: 'nik41507@gmail.com',
-      aboutMe: 'I\'m a Computer Game Science student studying at UC Irvine.',
+      aboutMe: 'I\'m a game developer and software engineer',
 
     }
   }
