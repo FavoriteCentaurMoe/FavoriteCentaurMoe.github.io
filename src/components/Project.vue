@@ -18,7 +18,7 @@
                 <small> {{project.subtitle}}</small>
               </h3>
               <p> {{project.description}}</p>
-              <router-link to="/Overthrone">
+              <router-link :to="project.destination">
                 <a class="btn btn-primary" href="#">View Project</a>
               </router-link>
             </div>

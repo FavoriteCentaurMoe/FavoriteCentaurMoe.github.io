@@ -4,7 +4,7 @@ import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue'
 import jquery from 'jquery'
 import router from './router'
-//import VueAnalytics from 'vue-analytics'
+import VueAnalytics from 'vue-analytics'
 require('bootstrap')
 require('jquery.easing')
 require('bootstrap/dist/css/bootstrap.css')
@@ -17,13 +17,20 @@ Vue.use(BootstrapVue)
 Vue.prototype.jquery = jquery
 
 Vue.config.productionTip = false
-/*
-Vue.use(VueAnalytics, {
-  id: 'UA-134679341-1'
-})
-*/
 
-/* eslint-disable no-new */
+const isProd = (process.env.NODE_ENV === 'production')
+
+Vue.use(VueAnalytics, {
+  id: 'UA-134679341-2',
+  router,
+  debug: {
+    enabled : !isProd,
+    sendHitTask: isProd
+  }
+})
+
+
+/* eslint-disable no-new */   
 new Vue({
   router,
   el: '#app',
