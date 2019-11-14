@@ -8,9 +8,17 @@
 
       <Overthrone/>
       <hr>
+      <Space/>
+      <hr>
+      <Endless_Motion/>
+      <hr>
       <GGJ19/>
       <hr>
-      <Shape_Escape />
+      <Cyber_City/>
+      <hr>
+      <Chomp/>
+      <hr>
+      <Shape_Escape/>
    
   </div>
 
@@ -22,11 +30,21 @@
 import Overthrone from './Overthrone.vue'
 import GGJ19 from './GGJ19.vue'
 import Shape_Escape from './Shape_Escape.vue'
+import Endless_Motion from './Endless_Motion'
+import Cyber_City from './Cyber_City_Rampge'
+import Tower from './TowerDefence'
+import Space from './SpaceGame'
+import Chomp from './Chomp_Champs'
 export default {
   components: {
     Overthrone,
     GGJ19,
     Shape_Escape,
+    Endless_Motion,
+    Cyber_City,
+    Tower,
+    Space,
+    Chomp
   }
 
 }

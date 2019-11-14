@@ -20,7 +20,7 @@
             </li>
             <li class="nav-item">
               <router-link to="/Games" class="rLink"> 
-                <a class="nav-link" href="#">Games</a> 
+                <a class="nav-link navbar-brand" href="#">Games</a> 
               </router-link>
             </li>
           </ul>

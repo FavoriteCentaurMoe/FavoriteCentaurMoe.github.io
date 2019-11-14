@@ -6,7 +6,9 @@ import Game from './components/Game.vue'
 import Overthrone from './components/Overthrone.vue'
 import GGJ19 from './components/GGJ19.vue'
 import Shape_Escape from './components/Shape_Escape.vue';
-import About from './components/About.vue'
+import About from './components/About.vue';
+import Space from './components/SpaceGame.vue'
+import EndlessMotion from './components/Endless_Motion.vue'
 
 Vue.use(Router)
 Vue.use(VueHead)
@@ -37,6 +39,16 @@ export default new Router({
       path: '/Shape_Escape',
       name: 'Shape Escape',
       component: Shape_Escape
+    },
+    {
+      path: '/Space_Game',
+      name: 'Start From Nothing',
+      component: Space
+    },
+    {
+      path: '/Endless_Motion',
+      name: 'Endless Motion',
+      component: EndlessMotion
     },
   ]
 })

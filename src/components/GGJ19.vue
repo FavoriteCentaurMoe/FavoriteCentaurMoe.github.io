@@ -7,6 +7,7 @@
           <h3>
             <small class="mb-3">Global Game Jam 2019 Project</small>
           </h3>
+          <img class="img-fluid mb-4" width="560" height="315" src="../assets/pGGJ19.png" />
           <div class="mb-4 col-md-8">
             <p>
               The theme of this Game Jam was

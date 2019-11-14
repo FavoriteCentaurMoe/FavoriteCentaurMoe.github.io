@@ -41,7 +41,7 @@ export default {
       surname: "Sharma",
       address: "Irvine, CA · (925) 660-9265 ·",
       email: "nik41507@gmail.com",
-      aboutMe: "I'm a game developer and software engineer"
+      aboutMe: "I'm a game developer and software engineer. Here is a collection of the game I have worked on. Overthrone is the coolest one and it won 1st place at the IEEE GameSIG Computer Game Showcase."
     };
   }
 };
